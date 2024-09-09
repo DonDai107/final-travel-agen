@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VAIDIK</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="fonts.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" href="vaidik.jpg" type="image/x-icon" />
+    <style>
+        .custom-text {
+            font-size: 36px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="index.html" class="site-brand">
+                VAIDIK<span class="custom-text"> Tours and Travels</span>
+            </a>
+
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar  -->
+
+    <!-- header -->
+    <header class="flex">
+        <div class="container">
+            <div class="header-title">
+                <h1>Leave Your Footprints</h1>
+                <p>The world is a book, and those who do not travel read only one page <br> – Saint Augustine</p>
+            </div>
+            <div class="header-form">
+                <h2>Choose your Travel location:</h2>
+                <form class="flex">
+                    <input type="text" class="form-control" placeholder="Destination name">
+                    <input type="date" class="form-control" placeholder="Date">
+                    <input type="number" class="form-control" placeholder="Price ($)">
+                    <input type="submit" class="btn" value="Search">
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- featured section -->
+    <section id="featured" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about some places before your travel</span>
+                <h2 class="lg-title">featured places</h2>
+            </div>
+
+            <div class="featured-row">
+                <div class="featured-item my-2 shadow">
+                    <img src="annapurna.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Mount Annapurna, Nepal
+                        </span>
+                        <div>
+                            <p class="text">Nestled in the heart of north-central Nepal, Mount Annapurna stands
+                                majestically at 8,091 meters (26,545 feet), earning its place as the 10th highest peak
+                                on Earth. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="featured-mustang-nepal.png" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Musatng, Nepal
+                        </span>
+                        <div>
+                            <p class="text">Mustang, often referred to as the “Land of Lo,” is a remote and mystical
+                                region in north-central Nepal. This once forbidden kingdom provides an unparalleled
+                                glimpse into a world where time seems to stand
+                                still.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="featured-global-village-dubai.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Global Village, Dubai
+                        </span>
+                        <div>
+                            <p class="text">Global Village Dubai is a vibrant cultural and entertainment destination,
+                                showcasing the traditions and cuisines of over 90 countries</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="featured-khwaeng-wat-arun-thailand.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Khwaeng wat arun, thailand
+                        </span>
+                        <div>
+                            <p class="text"> This stunning riverside landmark is renowned for its intricate design and
+                                colorful ceramic tiles, making it one of Thailand’s most beautiful and historic sites
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="Angkor Wat cambodia.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Angkor Wat, Cambodia
+                        </span>
+                        <div>
+                            <p class="text">Angkor Wat, Cambodia, is the largest religious monument in the world
+                                originally built in the 12th century as a Hindu temple and later transformed into a
+                                Buddhist temple. This architectural marvel is renowned for its grandeur, and historical
+                                significance</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="featured-fuvahmulah-maldives.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            fuvahmulah, maldives
+                        </span>
+                        <div>
+                            <p class="text">Fuvahmulah, the only single-island atoll in the Maldives, is renowned for
+                                its unique biodiversity and stunning landscapes. Located near the equator, this island
+                                is a diver’s paradise, famously known as the "Tiger Shark Capital of the World"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of featured section -->
+
+    <!-- services section -->
+    <section id="services" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">Know about services that we offer</span>
+                <h2 class="lg-title">Our services</h2>
+            </div>
+            <div>
+                <div class="services-row">
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </span>
+                        <h3>Global Visa Assistance</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-flag-usa"></i>
+                        </span>
+                        <h3>USA Visa Assistance</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-earth-europe"></i>
+                        </span>
+                        <h3>Europe Tour Package</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-torii-gate"></i>
+                        </span>
+                        <h3>Japan Tour Package</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-people-group"></i>
+                        </span>
+                        <h3>Group Packages</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </span>
+                        <h3>Corporate Travel Packages</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-umbrella-beach"></i>
+                        </span>
+                        <h3>Holiday Destination</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fas fa-ticket"></i>
+                        </span>
+                        <h3>Air Tickets</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fas fa-hotel"></i>
+                        </span>
+                        <h3>Hotel</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-money-bill"></i>
+                        </span>
+                        <h3>Suitable Prices</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+    </section>
+    <!-- end of services section  <i class="fa-solid fa-tickets-airline"></i>-->
+
+    <!-- testimonials section -->
+    <section id="testimonials" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">what our clients say about us</span>
+                <h2 class="lg-title">testimonials</h2>
+            </div>
+
+            <div class="test-row">
+                <div class="test-item">
+                    <p class="text">“Absolutely fantastic service! The entire trip was seamless and stress-free. Highly
+                        recommend this agency for anyone looking to travel with ease.”</p>
+                    <div class="test-item-info">
+                        <img src="test-1.jpg" alt="testimonial">
+                        <div>
+                            <h3>Kevin Wilson</h3>
+                            <p class="text">Trip to Brazil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">“From booking to the actual trip, everything was perfect. The staff was incredibly
+                        helpful and made sure all our needs were met. Will definitely use their services again!”
+                    </p>
+                    <div class="test-item-info">
+                        <img src="test-2.jpg" alt="testimonial">
+                        <div>
+                            <h3>Ben Davis</h3>
+                            <p class="text">Trip to Maldives</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">“This travel agency made our dream vacation a reality. Everything was organized
+                        perfectly, and we didn’t have to worry about a thing. Highly satisfied!”</p>
+                    <div class="test-item-info">
+                        <img src="test-3.jpg" alt="testimonial">
+                        <div>
+                            <h3>Jaura Jones</h3>
+                            <p class="text">Trip to Thailand</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of testimonials section -->
+
+    <!-- video section -->
+    <section id="video">
+        <div class="video-wrapper flex">
+            <video loop>
+                <source src="video-section.mp4" type="video/mp4">
+            </video>
+            <button type="button" id="play-btn">
+                <i class="fas fa-play"></i>
+            </button>
+        </div>
+    </section>
+    <!-- end of video section -->
+
+    <!-- footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    VAIDIK<span>Tours and Travels</span>
+                </a>
+                <p class="text">Vaidik Tours and Travels: Your Gateway to Adventure</p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Popular Places:</h2>
+                <ul>
+                    <li><a href="#">Thailand</a></li>
+                    <li><a href="#">Nepal</a></li>
+                    <li><a href="#">Maldives</a></li>
+                    <li><a href="#">Australia</a></li>
+                    <li><a href="#">Dubai</a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form class="flex">
+                    <input type="email" placeholder="Enter Email" class="form-control">
+                    <input type="submit" class="btn" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+    <script>
+        // play/pause video
+        let video = document.querySelector('.video-wrapper video');
+        document.getElementById('play-btn').addEventListener('click', () => {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        });
+    </script>
+</body>
+
+</html>
